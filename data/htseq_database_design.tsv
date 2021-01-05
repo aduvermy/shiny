@@ -1,0 +1,207 @@
+Run	AvgSpotLen	BioProject	BioSample	Instrument	LibraryLayout	LibrarySelection	ReleaseDate	Sample Name	Library Name	tissue	sex	dev_stage	strain	host	phenotype	replicate	treatment
+SRR064408	74	PRJNA79741	SAMN00109689	Illumina Genome Analyzer II	SINGLE	cDNA	2011-01-05T00:00:00Z	aphid bacteriocyte sample	bac mRNA library prep	bacteriocyte							
+SRR064409	74	PRJNA79741	SAMN00109690	Illumina Genome Analyzer II	SINGLE	cDNA	2011-01-05T00:00:00Z	aphid body sample	body mRNA library prep	bacteriocyte							
+SRR353542	70	PRJNA79843	SAMN00138242	Illumina Genome Analyzer II	SINGLE	cDNA	2011-10-17T00:00:00Z	12hr heads, solitary	12hr_hd_sol_1.txt	head					solitary		
+SRR353541	70	PRJNA79843	SAMN00138240	Illumina Genome Analyzer II	SINGLE	cDNA	2011-10-17T00:00:00Z	12hr crowded, heads	12hr_hd_cr_1.txt	head					crowded		
+SRR353539	70	PRJNA79843	SAMN00138241	Illumina Genome Analyzer II	SINGLE	cDNA	2011-10-17T00:00:00Z	0hr heads	0hr_hd_1.txt	head							
+SRR074233	70	PRJNA79843	SAMN00138944	Illumina Genome Analyzer II	SINGLE	cDNA	2010-12-06T00:00:00Z	24 hr heads, crowded	24hr_hd_cr_1.txt	head							
+SRR074231	70	PRJNA79843	SAMN00138943	Illumina Genome Analyzer II	SINGLE	cDNA	2010-12-06T00:00:00Z	24hr heads, solitary	24hr_hd_sol_1.txt	head							
+SRR353540	70	PRJNA79843	SAMN00138239	Illumina Genome Analyzer II	SINGLE	cDNA	2011-10-17T00:00:00Z	0hr embryos	0hr_embryos_1.txt	embryo							
+SRR924121	202	PRJNA209321	SAMN02212482	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_female	AP_Females1		female	adults	LSR1			biological replicate 1	
+SRR924122	202	PRJNA209321	SAMN02212482	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_female	AP_females2		female	adults	LSR1			biological replicate 2	
+SRR924118	202	PRJNA209321	SAMN02212480	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_partheno	AP_Partheno2		female	adults	LSR1		parthogenetic female	biological replicate 2	
+SRR924120	202	PRJNA209321	SAMN02212481	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_male	AP_males2		male	adults	LSR1			biological replicate 2	
+SRR924119	202	PRJNA209321	SAMN02212481	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_male	AP_Male1		male	adults	LSR1			biological replicate 1	
+SRR924106	202	PRJNA209321	SAMN02212480	Illumina HiSeq 2000	PAIRED	unspecified	2014-07-01T00:00:00Z	AP_partheno	AP_partheno1		female	adults	LSR1		parthogenetic female	biological replicate 1	
+SRR942531	152	PRJNA213008	SAMN02261658	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- Alf2-Bacteriocyte		bacteriocyte			LSR1				
+SRR942642	152	PRJNA213008	SAMN02261662	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB3-Body		body minus bacteriocyte			LSR1				
+SRR942532	152	PRJNA213008	SAMN02261659	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- Alf3-Bacteriocyte		bacteriocyte			LSR1				
+SRR6012228	152	PRJNA213008	SAMN02261665	Illumina HiSeq 2500	PAIRED	RANDOM	2017-09-07T00:00:00Z	Acyrthosiphum pisum LSR1- Alf3-Body		body minus bacteriocyte			LSR1				
+SRR942528	152	PRJNA213008	SAMN02261656	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB3-Bacteriocyte		bacteriocyte			LSR1				
+SRR942638	152	PRJNA213008	SAMN02261661	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB2-Body		body minus bacteriocyte			LSR1				
+SRR942656	152	PRJNA213008	SAMN02261663	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- Alf1-Body		body minus bacteriocyte			LSR1				
+SRR942540	152	PRJNA213008	SAMN02261660	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB1-Body		body minus bacteriocyte			LSR1				
+SRR942529	152	PRJNA213008	SAMN02261657	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- Alf1-Bacteriocyte		bacteriocyte			LSR1				
+SRR942526	152	PRJNA213008	SAMN02261654	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB1-Bacteriocyte		bacteriocyte			LSR1				
+SRR942527	152	PRJNA213008	SAMN02261655	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- FB2-Bacteriocyte		bacteriocyte			LSR1				
+SRR942657	152	PRJNA213008	SAMN02261664	Illumina HiSeq 2500	PAIRED	RANDOM	2016-06-15T00:00:00Z	Acyrthosiphum pisum LSR1- Alf2-Body		body minus bacteriocyte			LSR1				
+SRR1793299	100	PRJNA274763	SAMN03332156	Illumina HiSeq 2000	SINGLE	PCR	2015-02-13T00:00:00Z	Acyrthosiphon pisum whole body		whole body	female	3-day-old		Vicia faba			
+SRR1793300	100	PRJNA274763	SAMN03332157	Illumina HiSeq 2000	SINGLE	PCR	2015-02-13T00:00:00Z	Acyrthosiphon pisum gut		gut	female	3-day-old		Vicia faba			
+SRR1825369	49	PRJNA277073	SAMN03384130	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum acclimated on Vicia faba		salivary glands		adults		Vicia faba			Acclimated on Vicia faba
+SRR1825370	49	PRJNA277073	SAMN03384131	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum acclimated on Vicia villosa		salivary glands		adults		Vicia villosa			Acclimated on Vicia villosa
+SRR1825371	49	PRJNA277073	SAMN03384133	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum acclimated on Medicago truncatula		salivary glands		adults		Medicago truncatula			Acclimated on Medicago truncatula
+SRR1825372	49	PRJNA277073	SAMN03384134	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum temporarily shifted on Vicia villosa		salivary glands		adults		Vicia villosa			Temporarily shifted on Vicia villosa
+SRR1825373	49	PRJNA277073	SAMN03384135	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum temporarily shifted on Medicago truncatula		salivary glands		adults		Medicago truncatula			Temporarily shifted on Medicago truncatula
+SRR1825374	49	PRJNA277073	SAMN03384136	Illumina HiSeq 2000	SINGLE	unspecified	2016-03-03T00:00:00Z	Salivary gland of A. pisum temporarily shifted on Medicago sativa		salivary glands		adults		Medicago sativa			Temporarily shifted on Medicago sativa
+SRR2182090	202	PRJNA293658	SAMN04009163	Illumina HiSeq 2000	PAIRED	unspecified	2016-08-24T00:00:00Z	Acyrthosiphon pisum wild type		whole body				Vicia faba			Acyrthosiphon pisum wild type
+SRR2182091	202	PRJNA293658	SAMN04009162	Illumina HiSeq 2000	PAIRED	unspecified	2016-08-24T00:00:00Z	Acyrthosiphon pisum-methomyl		whole body				Vicia faba			Acyrthosiphon pisum with methomyl treatment
+SRR2182092	202	PRJNA293658	SAMN04009161	Illumina HiSeq 2000	PAIRED	unspecified	2016-08-24T00:00:00Z	Acyrthosiphon pisum-monocrotophos		whole body				Vicia faba			Acyrthosiphon pisum with monocrotophos treatment
+SRR2182093	202	PRJNA293658	SAMN04009154	Illumina HiSeq 2000	PAIRED	unspecified	2016-08-24T00:00:00Z	Acyrthosiphon pisum-imidacloprid		whole body				Vicia faba			Acyrthosiphon pisum with imidacloprid treatment
+SRR6315454	300	PRJNA419454	SAMN08056030	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-infected	sc-2	whole body				Vicia villosa		biological replicate 2	APV-infected
+SRR6315455	300	PRJNA419454	SAMN08056030	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-infected	sc-3	whole body				Vicia villosa		biological replicate 3	APV-infected
+SRR6315456	300	PRJNA419454	SAMN08056029	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-free	wudu-1	whole body				Vicia villosa		biological replicate 1	APV-free
+SRR6315457	300	PRJNA419454	SAMN08056029	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-free	wudu-2	whole body				Vicia villosa		biological replicate 2	APV-free
+SRR6315458	300	PRJNA419454	SAMN08056029	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-free	wudu-3	whole body				Vicia villosa		biological replicate 3	APV-free
+SRR6315459	300	PRJNA419454	SAMN08056030	Illumina HiSeq 4000	PAIRED	RT-PCR	2019-12-02T00:00:00Z	APV-infected	sc-1	whole body				Vicia villosa		biological replicate 1	APV-infected
+SRR7037537	252	PRJNA450900	SAMN08954368	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	Gut_LSR1	Gut_LSR1 sample rep1	gut	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 1	
+SRR7037541	252	PRJNA450900	SAMN08954367	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	SG_LSR1	SG_LSR1 sample rep1	salivary glands	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 1	
+SRR7037543	252	PRJNA450900	SAMN08954367	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	SG_LSR1	SG_LSR1 sample rep3	salivary glands	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 3	
+SRR7037539	252	PRJNA450900	SAMN08954368	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	Gut_LSR1	Gut_LSR1 sample rep3	gut	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 3	
+SRR7037542	252	PRJNA450900	SAMN08954367	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	SG_LSR1	SG_LSR1 sample rep2	salivary glands	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 2	
+SRR7037540	250	PRJNA450900	SAMN08954368	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	Gut_LSR1	Gut_LSR1 sample rep4	gut	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 4	
+SRR7037544	250	PRJNA450900	SAMN08954367	Illumina HiSeq 2500	PAIRED	PolyA	2018-04-19T00:00:00Z	SG_LSR1	SG_LSR1 sample rep4	salivary glands	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 4	
+SRR7454529	202	PRJNA478421	SAMN09515188	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T1A	Ap_Embryo_Sex_T1A_2	embryo		Embryo Stage 18	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454532	202	PRJNA478421	SAMN09515189	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T1K	Ap_Embryo_Asex_T1K_1	embryo		Embryo Stage 18	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454533	202	PRJNA478421	SAMN09515189	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T1K	Ap_Embryo_Asex_T1K_2	embryo		Embryo Stage 18	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454534	202	PRJNA478421	SAMN09515188	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T1A	Ap_Embryo_Sex_T1A_3	embryo		Embryo Stage 18	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454537	202	PRJNA478421	SAMN09515189	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T1K	Ap_Embryo_Asex_T1K_4	embryo		Embryo Stage 18	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454539	202	PRJNA478421	SAMN09515190	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T2A	Ap_Embryo_Sex_T2A_4	embryo		Embryo Stage 19	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454543	202	PRJNA478421	SAMN09515191	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T2K	Ap_Embryo_Asex_T2K_4	embryo		Embryo Stage 19	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454545	202	PRJNA478421	SAMN09515191	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T2K	Ap_Embryo_Asex_T2K_2	embryo		Embryo Stage 19	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454546	202	PRJNA478421	SAMN09515192	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T3A	Ap_Embryo_Sex_T3A_1	embryo		Embryo Stage 20	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454547	202	PRJNA478421	SAMN09515192	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T3A	Ap_Embryo_Sex_T3A_2	embryo		Embryo Stage 20	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454549	202	PRJNA478421	SAMN09515193	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T3K	Ap_Embryo_Asex_T3K_1	embryo		Embryo Stage 20	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454551	202	PRJNA478421	SAMN09515192	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T3A	Ap_Embryo_Sex_T3A_3	embryo		Embryo Stage 20	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454553	202	PRJNA478421	SAMN09515193	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T3K	Ap_Embryo_Asex_T3K_3	embryo		Embryo Stage 20	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454528	202	PRJNA478421	SAMN09515188	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T1A	Ap_Embryo_Sex_T1A_1	embryo		Embryo Stage 18	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454530	108	PRJNA478421	SAMN09515187	Illumina Genome Analyzer	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_T0	Ap_Embryo_T0_1	embryo		Embryo Stage 17	LSR1	Vicia faba			Mother treated with Acetone
+SRR7454531	202	PRJNA478421	SAMN09515187	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_T0	Ap_Embryo_T0_2	embryo		Embryo Stage 17	LSR1	Vicia faba			Mother treated with Acetone
+SRR7454535	202	PRJNA478421	SAMN09515188	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T1A	Ap_Embryo_Sex_T1A_4	embryo		Embryo Stage 18	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454536	202	PRJNA478421	SAMN09515189	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T1K	Ap_Embryo_Asex_T1K_3	embryo		Embryo Stage 18	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454538	202	PRJNA478421	SAMN09515190	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T2A	Ap_Embryo_Sex_T2A_3	embryo		Embryo Stage 19	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454540	202	PRJNA478421	SAMN09515190	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T2A	Ap_Embryo_Sex_T2A_1	embryo		Embryo Stage 19	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454541	202	PRJNA478421	SAMN09515190	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T2A	Ap_Embryo_Sex_T2A_2	embryo		Embryo Stage 19	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454542	202	PRJNA478421	SAMN09515191	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T2K	Ap_Embryo_Asex_T2K_3	embryo		Embryo Stage 19	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454544	202	PRJNA478421	SAMN09515191	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T2K	Ap_Embryo_Asex_T2K_1	embryo		Embryo Stage 19	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454548	202	PRJNA478421	SAMN09515193	Illumina HiSeq 2000	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T3K	Ap_Embryo_Asex_T3K_2	embryo		Embryo Stage 20	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR7454550	202	PRJNA478421	SAMN09515192	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Sex_T3A	Ap_Embryo_Sex_T3A_4	embryo		Embryo Stage 20	LSR1	Vicia faba	sexual		Mother treated with Acetone
+SRR7454552	202	PRJNA478421	SAMN09515193	Illumina HiSeq 2500	PAIRED	unspecified	2018-06-29T00:00:00Z	Ap_Embryo_Asex_T3K	Ap_Embryo_Asex_T3K_4	embryo		Embryo Stage 20	LSR1	Vicia faba	asexual		Mother treated with Kinoprene in Acetone
+SRR8327259	74	PRJNA510301	SAMN10601638	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum maxillary 4	Ap_maxillary_4	maxillary	female	L4 nymphal instar	LL01			technical replicate 4	
+SRR8327260	74	PRJNA510301	SAMN10601639	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum mandibular 2	Ap_mandibular_2	mandibular	female	L4 nymphal instar	LL01			technical replicate 2	
+SRR8327262	74	PRJNA510301	SAMN10601641	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum mandibular 4	Ap_mandibular_4	mandibular	female	L4 nymphal instar	LL01			technical replicate 4	
+SRR8327261	74	PRJNA510301	SAMN10601640	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum mandibular 3	Ap_mandibular_3	mandibular	female	L4 nymphal instar	LL01			technical replicate 3	
+SRR8327257	74	PRJNA510301	SAMN10601636	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum maxillary 2	Ap_maxillary_2	maxillary	female	L4 nymphal instar	LL01			technical replicate 2	
+SRR8327258	74	PRJNA510301	SAMN10601637	NextSeq 500	SINGLE	cDNA	2020-01-01T00:00:00Z	Acyrthosiphon pisum maxillary 3	Ap_maxillary_3	maxillary	female	L4 nymphal instar	LL01			technical replicate 3	
+SRR8543835	76	PRJNA521306	SAMN10882836	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	WI508	WI508	whole body		seven days larvae					
+SRR8543832	76	PRJNA521306	SAMN10882835	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	WI503	WI503	whole body		seven days larvae					
+SRR8543836	76	PRJNA521306	SAMN10882839	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	BC515	BC515	bacteriocyte							
+SRR8543833	76	PRJNA521306	SAMN10882834	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	WI420	WI420	whole body		seven days larvae					
+SRR8543834	76	PRJNA521306	SAMN10882837	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	BC508	BC508	bacteriocyte							
+SRR8543837	76	PRJNA521306	SAMN10882838	NextSeq 500	SINGLE	RANDOM	2020-03-03T00:00:00Z	BC510	BC510	bacteriocyte							
+SRR8944768	101	PRJNA534232	SAMN11482128	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_solitary_3	Weak_solitary_3	carcass			pooled weakly-inducible genotypes		solitary	biological replicate 3	
+SRR8944763	101	PRJNA534232	SAMN11482125	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_crowded_4	High_crowded_4	carcass		adults	pooled highly-inducible genotypes		crowded	biological replicate 4	
+SRR8944769	101	PRJNA534232	SAMN11482129	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_solitary_4	Weak_solitary_4	carcass		adults	pooled weakly-inducible genotypes		solitary	biological replicate 4	
+SRR8944766	101	PRJNA534232	SAMN11482132	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_crowded_3	Weak_crowded_3	carcass		adults	pooled weakly-inducible genotypes		crowded	biological replicate 3	
+SRR8944767	101	PRJNA534232	SAMN11482133	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_crowded_4	Weak_crowded_4	carcass		adults	pooled weakly-inducible genotypes		crowded		
+SRR8944770	101	PRJNA534232	SAMN11482130	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_crowded_1	Weak_crowded_1	carcass		adults	pooled weakly-inducible genotypes		crowded	biological replicate 1	
+SRR8944765	101	PRJNA534232	SAMN11482127	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_solitary_2	Weak_solitary_2	carcass		adults	pooled weakly-inducible genotypes		solitary	biological replicate 2	
+SRR8944758	101	PRJNA534232	SAMN11482120	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_solitary_3	High_solitary_3	carcass		adults	pooled highly-inducible genotypes		solitary	biological replicate 3	
+SRR8944761	101	PRJNA534232	SAMN11482123	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_crowded_2	High_crowded_2	carcass		adults	pooled highly-inducible genotypes		crowded	biological replicate 2	
+SRR8944756	101	PRJNA534232	SAMN11482118	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_solitary_1	High_solitary_1	carcass		adults	pooled highly-inducible genotypes		solitary	biological replicate 1	
+SRR8944764	101	PRJNA534232	SAMN11482126	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_solitary_1	Weak_solitary_1	carcass		adults	pooled weakly-inducible genotypes		solitary	biological replicate 1	
+SRR8944759	101	PRJNA534232	SAMN11482121	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_solitary_4	High_solitary_4	carcass		adults	pooled highly-inducible genotypes		solitary	biological replicate 4	
+SRR8944760	101	PRJNA534232	SAMN11482122	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_crowded_1	High_crowded_1	carcass		adults	pooled highly-inducible genotypes		crowded	biological replicate 1	
+SRR8944771	101	PRJNA534232	SAMN11482131	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	Weak_crowded_2	Weak_crowded_2	carcass		adults	pooled weakly-inducible genotypes		crowded	biological replicate 2	
+SRR8944762	101	PRJNA534232	SAMN11482124	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_crowded_3	High_crowded_3	carcass		adults	pooled highly-inducible genotypes		crowded	biological replicate 3	
+SRR8944757	101	PRJNA534232	SAMN11482119	Illumina HiSeq 2500	SINGLE	RANDOM PCR	2019-04-23T00:00:00Z	High_solitary_2	High_solitary_2	carcass		adults	pooled highly-inducible genotypes		solitary	biological replicate 2	
+SRR9163345	252	PRJNA545527	SAMN11895787	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Ms	LL01_Ms sample rep3	heads	female	nine days adults	LL01	Medicago truncatula	parthogenetic female	biological replicate 3	
+SRR9163346	252	PRJNA545527	SAMN11895787	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Ms	LL01_Ms sample rep2	heads	female	nine days adults	LL01	Medicago truncatula	parthogenetic female	biological replicate 2	
+SRR9163353	252	PRJNA545527	SAMN11895787	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Ms	LL01_Ms sample rep1	heads	female	nine days adults	LL01	Medicago truncatula	parthogenetic female	biological replicate 1	
+SRR9163357	252	PRJNA545527	SAMN11895785	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Ms	LSR1_Ms sample rep3	heads	female	nine days adults	LSR1	Medicago truncatula	parthogenetic female	biological replicate 3	
+SRR9163358	252	PRJNA545527	SAMN11895785	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Ms	LSR1_Ms sample rep2	heads	female	nine days adults	LSR1	Medicago truncatula	parthogenetic female	biological replicate 2	
+SRR9163359	252	PRJNA545527	SAMN11895785	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Ms	LSR1_Ms sample rep1	heads	female	nine days adults	LSR1	Medicago truncatula	parthogenetic female	biological replicate 1	
+SRR9163355	252	PRJNA545527	SAMN11895786	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Vf	LL01_Vf sample rep2	heads	female	nine days adults	LL01	Vicia faba	parthogenetic female	biological replicate 2	
+SRR9163354	252	PRJNA545527	SAMN11895786	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Vf	LL01_Vf sample rep3	heads	female	nine days adults	LL01	Vicia faba	parthogenetic female	biological replicate 3	
+SRR9163356	252	PRJNA545527	SAMN11895786	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LL01_Vf	LL01_Vf sample rep1	heads	female	nine days adults	LL01	Vicia faba	parthogenetic female	biological replicate 1	
+SRR9163361	252	PRJNA545527	SAMN11895784	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Vf	LSR1_Vf sample rep2	heads	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 2	
+SRR9163360	252	PRJNA545527	SAMN11895784	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Vf	LSR1_Vf sample rep3	heads	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 3	
+SRR9163362	252	PRJNA545527	SAMN11895784	Illumina HiSeq 2500	PAIRED	PolyA	2019-05-30T00:00:00Z	LSR1_Vf	LSR1_Vf sample rep1	heads	female	nine days adults	LSR1	Vicia faba	parthogenetic female	biological replicate 1	
+SRR9209841	300	PRJNA547535	SAMN11969252	Illumina HiSeq 3000	PAIRED	RT-PCR	2020-01-01T00:00:00Z	Acyrthosiphon pisum legs PP1	Ap_legs_PP1	legs	female	nine days adults	LSR1			biological replicate 1	
+SRR9209840	300	PRJNA547535	SAMN11969253	Illumina HiSeq 3000	PAIRED	RT-PCR	2020-01-01T00:00:00Z	Acyrthosiphon pisum legs PP2	Ap_legs_PP2	legs	female	nine days adults	LSR1			biological replicate 2	
+SRR9209842	300	PRJNA547535	SAMN11969251	Illumina HiSeq 3000	PAIRED	RT-PCR	2020-01-01T00:00:00Z	Acyrthosiphon pisum head PT2	Ap_head_PT2	head	female	nine days adults	LSR1			biological replicate 2	
+SRR9209839	300	PRJNA547535	SAMN11969250	Illumina HiSeq 3000	PAIRED	RT-PCR	2020-01-01T00:00:00Z	Acyrthosiphon pisum head PT1	Ap_head_PT1	head	female	nine days adults	LSR1			biological replicate 1	
+SRR10199010	297	PRJNA574771	SAMN12869212	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T72h-4	T12	whole body				Vicia faba		biological replicate 4	Samples after bassiana bassiana infection
+SRR10199011	298	PRJNA574771	SAMN12869211	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T72h-3	T11	whole body				Vicia faba		biological replicate 3	Samples after bassiana bassiana infection
+SRR10199012	297	PRJNA574771	SAMN12869202	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	CK-2	T02	whole body				Vicia faba		biological replicate 2	Samples after bassiana bassiana infection
+SRR10199013	297	PRJNA574771	SAMN12869201	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	CK-1	T01	whole body				Vicia faba		biological replicate 1	Samples after bassiana bassiana infection
+SRR10199014	298	PRJNA574771	SAMN12869210	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T72h-2	T10	whole body				Vicia faba		biological replicate 2	Samples after bassiana bassiana infection
+SRR10199015	297	PRJNA574771	SAMN12869209	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T72h-1	T09	whole body				Vicia faba		biological replicate 1	Samples after bassiana bassiana infection
+SRR10199016	297	PRJNA574771	SAMN12869208	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T36h-4	T08	whole body				Vicia faba		biological replicate 4	Samples after bassiana bassiana infection
+SRR10199017	296	PRJNA574771	SAMN12869207	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T36h-3	T07	whole body				Vicia faba		biological replicate 3	Samples after bassiana bassiana infection
+SRR10199018	297	PRJNA574771	SAMN12869206	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T36h-2	T06	whole body				Vicia faba		biological replicate 2	Samples after bassiana bassiana infection
+SRR10199019	297	PRJNA574771	SAMN12869205	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	T36h-1	T05	whole body				Vicia faba		biological replicate 1	Samples after bassiana bassiana infection
+SRR10199020	297	PRJNA574771	SAMN12869204	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	CK-4	T04	whole body				Vicia faba		biological replicate 4	Samples after bassiana bassiana infection
+SRR10199021	297	PRJNA574771	SAMN12869203	Illumina HiSeq 2500	PAIRED	RANDOM	2020-03-31T00:00:00Z	CK-3	T03	whole body				Vicia faba		biological replicate 3	Samples after bassiana bassiana infection
+SRR10291800	74	PRJNA577642	SAMN13031690	NextSeq 500	SINGLE	RT-PCR	2019-10-18T00:00:00Z	5AYH1	5AYH1	whole body			5AYC	Medicago sp.		biological replicate 1	
+SRR10291798	74	PRJNA577642	SAMN13031692	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	5AYH3	5AYH3	whole body			5AYC	Medicago sp.		biological replicate 3	
+SRR10291799	74	PRJNA577642	SAMN13031691	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	5AYH2	5AYH2	whole body			5AYC	Medicago sp.		biological replicate 2	
+SRR10291801	74	PRJNA577642	SAMN13031689	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	5AYC3	5AYC3	whole body			5AYC	Medicago sp.		biological replicate 3	
+SRR10291803	74	PRJNA577642	SAMN13031688	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	5AYC2	5AYC2	whole body			5AYC	Medicago sp.		biological replicate 2	
+SRR10291804	74	PRJNA577642	SAMN13031687	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	5AYC1	5AYC1	whole body			5AYC	Medicago sp.		biological replicate 1	
+SRR10291805	73	PRJNA577642	SAMN13031686	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusH3	AusH3	whole body			AusC	Vicia faba		biological replicate 3	
+SRR10291806	73	PRJNA577642	SAMN13031685	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusH2	AusH2	whole body			AusC	Vicia faba		biological replicate 2	
+SRR10291807	74	PRJNA577642	SAMN13031684	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusH1	AusH1	whole body			AusC	Vicia faba		biological replicate 1	
+SRR10291808	73	PRJNA577642	SAMN13031683	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusC3	AusC3	whole body			AusC	Vicia faba		biological replicate 3	
+SRR10291809	73	PRJNA577642	SAMN13031682	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusC2	AusC2	whole body			AusC	Vicia faba		biological replicate 2	
+SRR10291810	73	PRJNA577642	SAMN13031681	NextSeq 500	SINGLE	RT-PCR	2019-10-17T00:00:00Z	AusC1	AusC1	whole body			AusC	Vicia faba		biological replicate 1	
+BactAmp1	75		BactAmp	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 1	
+BactAmp2	75		BactAmp	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 2	
+BactAmp3	75		BactAmp	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 3	
+BactHd1	75		BactHd	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 1	
+BactHd2	75		BactHd	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 2	
+BactHd3final	75		BactHd	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 3	
+BactRia1	75		BactRia	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 1	
+BactRia2	75		BactRia	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 2	
+BactRia3	75		BactRia	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 3	
+BactRin1bis	75		BactRin	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 1	
+BactRin2	75		BactRin	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 2	
+BactSs1	75		BactSs	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 1	
+BactSs2	75		BactSs	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 2	
+BactSs3	75		BactSs	Illumina HiSeq 	PAIRED	PolyA	2015			bacteriocyte						biological replicate 3	
+HemoAmp0113	75		HemoAmp	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 1	
+HemoAmp0413bis	75		HemoAmp	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 2	
+HemoHd0113	75		HemoHd	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 1	
+HemoHd0413	75		HemoHd	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 2	
+HemoHd0513	75		HemoHd	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 3	
+HemoRia0113	75		HemoRia	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 1	
+HemoRia0413	75		HemoRia	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 2	
+HemoRia0513	75		HemoRia	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 3	
+HemoRin0113	75		HemoRin	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 1	
+HemoRin0413	75		HemoRin	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 2	
+HemoRin0513	75		HemoRin	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 3	
+HemoSs0113	75		HemoSs	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 1	
+HemoSs0413	75		HemoSs	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 2	
+HemoSs0513	75		HemoSs	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biological replicate 3	
+TDAmp1	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 1	
+TDAmp2	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 2	
+TDAmp3	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 3	
+A15-1	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+A15-2	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+A15-3	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+A15-4	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+A15-5	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+A23-1	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+A23-2	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+A23-3	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+A23-4	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+A23-5	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+A9-1	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+A9-2	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+A9-3	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+A9-4	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+A9-5	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+N2-1	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+N2-2	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+N2-3	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+N2-4	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+N2-5	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+N3-1	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+N3-2	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+N3-3	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+N3-4	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+N3-5	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+N4-1	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
+N4-2	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
+N4-3	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
+N4-4	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
+N4-5	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	

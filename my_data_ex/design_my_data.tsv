@@ -1,0 +1,7 @@
+Run	AvgSpotLen	BioProject	BioSample	Instrument	LibraryLayout	LibrarySelection	ReleaseDate	Sample Name	Library Name	tissue	sex	dev_stage	strain	host	phenotype	replicate	treatment
+sample1.a		my_project	sample1							bacteriocyte		adult					
+sample1.b		my_project	sample1							bacteriocyte		baby					
+sample2		my_project	sample2							head		old			solitary		
+sample3		my_project	sample3									very old	LSR1		unwinged		
+sample4		my_project	sample4							head					crowded		
+sample5		my_project	sample5										LSR1		winged		
