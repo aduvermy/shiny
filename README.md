@@ -32,11 +32,14 @@ You can also import your own datasets to visualize them independantly or compare
 In order to take full advantage of the visualization possibilities, we invite you to upload a design file for your own data as well.
 An example of a good design file is available in the *my_data_ex* folder.
 
+
 **IMPORTANT**  
 Regarding the formatting of your counting files:  
   - 2 columns: gene and read counts (without header)  
   - 1 line = 1 gene  
   - Gene names must match the genes in the *data/feature_size/gene_information.tab* file.
+
+    # <img src="src/www/examplecountfiledata.png" width="250" height="130" >
 
 You can check the formatting of your count files by running: 
 ```
@@ -47,6 +50,8 @@ pip3 install pandas ##if you don't own the *pandas* library
 Regarding the design file of your samples:  
 - Make sure to follow the formatting (number and column name) of the *my_data_ex/design_my_data.tsv* file
 - fill it with as much information as possible.
+
+    # <img src="src/www/exampleDesignFiledata.png" width="300" height="130" >
 
 You can check the formatting of your count files and design file by running:
 ```

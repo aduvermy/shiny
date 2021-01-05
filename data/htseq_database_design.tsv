@@ -175,33 +175,33 @@ HemoSs0513	75		HemoSs	Illumina HiSeq 	PAIRED	PolyA	2015			hemocyte						biologic
 TDAmp1	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 1	
 TDAmp2	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 2	
 TDAmp3	75		TDAmp	Illumina HiSeq 	PAIRED	PolyA	2015			gut						biological replicate 3	
-A15-1	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-A15-2	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-A15-3	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-A15-4	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-A15-5	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
-A23-1	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-A23-2	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-A23-3	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-A23-4	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-A23-5	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
-A9-1	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-A9-2	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-A9-3	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-A9-4	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-A9-5	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
-N2-1	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-N2-2	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-N2-3	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-N2-4	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-N2-5	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
-N3-1	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-N3-2	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-N3-3	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-N3-4	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-N3-5	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
-N4-1	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 1	
-N4-2	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 2	
-N4-3	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 3	
-N4-4	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 4	
-N4-5	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte						biological replicate 5	
+A15-1	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		fifteen days adults				biological replicate 1	
+A15-2	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		fifteen days adults				biological replicate 2	
+A15-3	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		fifteen days adults				biological replicate 3	
+A15-4	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		fifteen days adults				biological replicate 4	
+A15-5	51		A15	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		fifteen days adults				biological replicate 5	
+A23-1	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		twenty-three days adults				biological replicate 1	
+A23-2	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		twenty-three days adults				biological replicate 2	
+A23-3	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		twenty-three days adults				biological replicate 3	
+A23-4	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		twenty-three days adults				biological replicate 4	
+A23-5	51		A23	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		twenty-three days adults				biological replicate 5	
+A9-1	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		nine days adults				biological replicate 1	
+A9-2	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		nine days adults				biological replicate 2	
+A9-3	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		nine days adults				biological replicate 3	
+A9-4	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		nine days adults				biological replicate 4	
+A9-5	51		A9	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		nine days adults				biological replicate 5	
+N2-1	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N2 nymphal instar				biological replicate 1	
+N2-2	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N2 nymphal instar				biological replicate 2	
+N2-3	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N2 nymphal instar				biological replicate 3	
+N2-4	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N2 nymphal instar				biological replicate 4	
+N2-5	51		N2	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N2 nymphal instar				biological replicate 5	
+N3-1	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N3 nymphal instar				biological replicate 1	
+N3-2	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N3 nymphal instar				biological replicate 2	
+N3-3	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N3 nymphal instar				biological replicate 3	
+N3-4	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N3 nymphal instar				biological replicate 4	
+N3-5	51		N3	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N3 nymphal instar				biological replicate 5	
+N4-1	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N4 nymphal instar				biological replicate 1	
+N4-2	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N4 nymphal instar				biological replicate 2	
+N4-3	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N4 nymphal instar				biological replicate 3	
+N4-4	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N4 nymphal instar				biological replicate 4	
+N4-5	51		N4	Illumina HiSeq 4000	SINGLE	PolyA	2020-04-28T00			bacteriocyte		N4 nymphal instar				biological replicate 5	

@@ -2,6 +2,7 @@
 ## FUNCTIONS FOR PLOTS
 ############################################################################
 
+## Building Tree
 plot_tree <- function(ds, plotColors) {
   counts <- assay(ds) # as.dist(1 - cor(.  , method = "pearson"))%>% hclust() %>% as.dendrogram()
   distance = as.dist(1 - cor(counts, method = "pearson"))
@@ -10,7 +11,7 @@ plot_tree <- function(ds, plotColors) {
   # Create dendro
   dendro.plot <- ggdendro::ggdendrogram(data = otter.dendro, theme_dendro = FALSE) +
     labs(x = "", y = "Distance") +
-    ggtitle("Sample clustering by pearson method") 
+    ggtitle("Sample clustering by Pearson method") 
     theme <- theme(panel.border = element_rect(colour = "black", fill = NA, size = .5), 
           axis.text.x = element_text(colour = plotColors[[2]], size = 10, face = "bold"), 
           axis.text.y = element_text(colour = plotColors[[2]], size = 10, face = "bold"),
@@ -25,23 +26,21 @@ plot_tree <- function(ds, plotColors) {
     print(dendro.plot)
 }
 
+## Building Heatmap (old version)
 plot_heatmap <- function(mat, plotColors) {
-  #p<-aheatmap( mat, Colv = TRUE, hclustfun = "average", scale = "row", fontsize=20 )
   p <- pheatmap(mat, Colv = TRUE, hclustfun = "average", scale = "row")
   grid.draw(rectGrob(gp = gpar(fill = plotColors[[1]], lwd = 0)))
   grid.draw(p)
   grid.gedit("layout", gp = gpar(col = plotColors[[2]], text = ""))
 }
 
-
+## Building Barplot
 plot_barplot <- function(dtf, plotColors) {
-  ##built barplot
   p <- ggplot(data = dtf, aes(x = Run, y = counts, fill = gene)) +
     geom_bar(stat = "identity") + facet_wrap(~gene, scales = "free_y")
   theme <- theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))+
     theme(legend.position = "none") +
     theme(
-      #panel.background = element_rect(fill = "black"), # bg of the panel
       plot.background = element_rect(fill = plotColors[[1]], color = plotColors[[1]]),
       axis.text.x = element_text(colour = plotColors[[2]], size = 10, face ="bold"), 
       axis.text.y = element_text(colour = plotColors[[2]], size = 10, face = "bold"),
@@ -58,6 +57,7 @@ plot_barplot <- function(dtf, plotColors) {
     print(p)
 }
 
+## Building Time Series
 plot_timeSeries <- function(dtf, list_rank, plotColors) {
   p <- ggplot(dtf, aes(x = factor(dev_stage, level = list_rank), y = counts, col = Run)) +
     geom_point()+ 
@@ -75,6 +75,7 @@ plot_timeSeries <- function(dtf, list_rank, plotColors) {
   print(p)
 }
 
+## Building PCA
 plot_acp <- function(ds, condition, plotColors) {
   dta <- vst(ds, blind = FALSE) 
   P <- plotPCA(dta, intgroup = condition) + geom_point(aes(text = paste("Run:", colnames(dta))))

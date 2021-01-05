@@ -34,7 +34,7 @@ shinyServer(function(input, output,session) {
   # Check if file uploaded to modify ui with conditionnal panel
   ## BOOLEAN FILE UPLOADED -> ui print uploaded your design files 
   output$fileUploaded <- reactive({
-    print('count file Upload correctly')
+    print('Count file Uploaded correctly')
     if (!is.null(input$input_countFile)) {
       if (is.null(getData())) return("countFile_unload")
       else return(TRUE)
@@ -94,20 +94,20 @@ shinyServer(function(input, output,session) {
   
   ## OBSERVED INPUT FILE UPLOADED
   input_from_upload <- reactive({
-    print("BUILT info for upload counts files")
+    print("BUILT info for uploaded count files")
     ## If counts file upladed
     if (!is.null(getData())) {
       inFile <- input$input_countFile
       ## If design file not uploaded
       if (is.null(getData_design())){
-            print("build file upload info WITHOUT design file")
+            print("Built file uploaded info WITHOUT design file")
             inFile_info <- setnames(data.frame(matrix(ncol=length(colnames(DataBase)), nrow = length(inFile$name))), colnames(DataBase))
             inFile_info$Run <- inFile$name %>% str_remove(paste(".",file_extension(.), sep = ""))
             inFile_info$path <- inFile$datapath
             inFile_info$BioSample <- inFile$name
       }
       else {
-            print("build file upload info WITH design file")
+            print("Built file uploaded info WITH design file")
             design <- getData_design()
             inFile_info <- design
             file_path <- inFile$datapath %>% set_names(inFile$name %>% str_remove(paste(".", file_extension(.), sep = "")))
@@ -120,18 +120,16 @@ shinyServer(function(input, output,session) {
     
   })
   
-  
-  
   ## Input data available
   input_data_available <- reactive({
     input_dta <- DataBase
     if (!is.null(getData_design())) {
-      print("binding DataBase with input upload")
+      print("Binding DataBase with input upload")
       input_dta <- input_dta  %>% bind_rows(.,input_from_upload())
       return(input_dta)
     }
     if (!is.null(getData())) {
-      print("binding DataBase with input upload")
+      print("Binding DataBase with input upload")
       input_dta <- input_dta  %>% bind_rows(.,input_from_upload())
       return(input_dta)
     }
@@ -239,18 +237,6 @@ shinyServer(function(input, output,session) {
     }
     return (choice) })
   
-  getChoiceScaling <- reactive({
-    if (input$scaling == "None"){
-      choice = "none"
-    }
-    if (input$scaling == "Gene"){
-      choice = "row"
-    }
-    if (input$scaling == "Sample"){
-      choice = "column"
-    }
-    return (choice) })
-  
   ##############################################################
   ### RAW COUNTS 
   ##############################################################
@@ -261,12 +247,12 @@ shinyServer(function(input, output,session) {
   })
   
   getMatrice <- reactive({
-    print("convert dtf 2 matrice")
+    print("Convert dtf 2 matrice")
     getCounts() %>% dtf2matrix()
   })
   
   getDESeq <- reactive({
-    print('convert matrice 2 Deseq object')
+    print('Convert matrice 2 Deseq object')
     fun <- function(x) {
       return(x+1)
     }
@@ -339,7 +325,7 @@ shinyServer(function(input, output,session) {
   ######################################################################
   
   getCounts_DESEQ <- reactive({
-    print(" get dtf counts normalized by DESEQ method")
+    print("Get dtf counts normalized by DESEQ method")
     c <- getMatrice_DESEQ() %>% rownames_to_column() %>%
       reshape2::melt( ., id=c("rowname"), variable.name = "Run") %>%
       mutate(counts= value) %>%
@@ -365,7 +351,7 @@ shinyServer(function(input, output,session) {
   ########################################################################
   
   get_input_MATRICE <- reactive({
-    print(" get matrice input for COUNTS MATRIX PANEL & HEATMAP PANEL")
+    print("Get matrice input for COUNTS MATRIX PANEL & HEATMAP PANEL")
     
     if(input$norm == "None"){
       matrice <- getMatrice() %>% filter(rownames(.) %in% getList_gene())
@@ -402,7 +388,7 @@ shinyServer(function(input, output,session) {
   
   
   get_input_DESEQ <- reactive({
-    print(" get deseq obj input for ACP PANEL & TREE PANEL")
+    print("Get Deseq obj input for ACP PANEL & TREE PANEL")
     
     if(input$norm == "None"){
       ds <- getDESeq()
@@ -418,8 +404,6 @@ shinyServer(function(input, output,session) {
     }
     return(ds)
   })
-  
-  
   
   
   ########################################################################
@@ -443,11 +427,11 @@ shinyServer(function(input, output,session) {
   
   getThemeForBackground <- reactive({
     if (input$themeToggle == FALSE) {
-      backgroundTheme <- "#222222"
-      labelsTheme <- "white"
-    } else {
       backgroundTheme <- "white"
       labelsTheme <- "#222222"
+    } else {
+      backgroundTheme <- "#222222"
+      labelsTheme <- "white"
     }
     return (list(backgroundTheme, labelsTheme))
   })
@@ -460,8 +444,8 @@ shinyServer(function(input, output,session) {
     list_biosample <- data2plot$BioSample
     ## Check input value
     shiny::validate(need(input$Run >= 2, 'Choose at least 2 runs from DataBase!'),
-                    need(length(list_biosample) != length(unique(list_biosample)), "Choose at least 2 replicates (twice the same BioSample)"),
-                    need(length(unique(list_biosample)) > 1, "Choose at least 2 different Biosample"))
+                    need(length(list_biosample) != length(unique(list_biosample)), "Choose at least 2 replicates (twice the same BioSample)!"),
+                    need(length(unique(list_biosample)) > 1, "Choose at least 2 different Biosamples!"))
     ds <- get_input_DESEQ()
     print(is.na(unique(ds[[input$condition]])))
     shiny::validate(need(!is.na(unique(ds[[input$condition]])), 'You cannot choose this condition : it is not filled in the table.'))
@@ -477,7 +461,7 @@ shinyServer(function(input, output,session) {
     list_biosample <- data2plot$BioSample
     ## Check input value
     shiny::validate(need(input$Run >= 2, 'Choose at least 2 runs from DataBase!'),
-                    need(length(unique(list_biosample)) > 1, "Choose at least 2 different Biosample"))
+                    need(length(unique(list_biosample)) > 1, "Choose at least 2 different Biosamples!"))
     
     ds <- get_input_DESEQ()
     plotColors <- getThemeForBackground()
@@ -492,7 +476,7 @@ shinyServer(function(input, output,session) {
     list_gene <- getList_gene()
     print(list_gene)
     shiny::validate(
-      need(input$Run > 2, 'Choose at least two run from DataBase!'),
+      need(input$Run > 2, 'Choose at least two runs from DataBase!'),
       need(length(list_gene)>=2, 'Choose at least one annotation or 2 genes!'))
     
     ##non interactive
@@ -513,11 +497,10 @@ shinyServer(function(input, output,session) {
       seriate = "mean",
       dendrogram = c(getChoiceClustering()),
       row_dend_left = TRUE,
-      plot_method = "plotly",
-      scale=c(getChoiceScaling())
+      plot_method = "plotly"
     ) %>% layout(plot_bgcolor=plotColors[[1]], paper_bgcolor = plotColors[[1]], font = list(color = plotColors[[2]]))
 
-    ##old method
+    ## Old method
     #plot_heatmap(mat, plotColors)
   })
     
@@ -589,7 +572,7 @@ shinyServer(function(input, output,session) {
   })
   
   getCounts_with_tps_label_RPKM <- reactive({ 
-    print(" get dtf counts normalized by RPKM for TIMES SERIES PANEL ")
+    print("Get dtf counts normalized by RPKM for TIMES SERIES PANEL ")
     
     dtf<-data.frame()
     
@@ -704,7 +687,7 @@ shinyServer(function(input, output,session) {
     print('Built Time series plot')
     shiny::validate(
       need(input$Run_tps, 'Choose at least one run from DataBase!'),
-      need(input$gene >= 1, 'Choose at least 1 genes!')
+      need(input$gene >= 1, 'Choose at least 1 gene!')
     )
     
     dtf <- get_input_TIMESERIES()

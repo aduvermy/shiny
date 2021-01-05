@@ -31,20 +31,20 @@ const toggle = document.getElementById('themeToggle');
 const extraDarkThemeCSS = '.dataTables_length label, .dataTables_filter label, .dataTables_info { color: white!important; } .paginate_button { background: white!important; } thead { color: white; }'
 const extraDarkThemeElement = document.createElement('style');
 extraDarkThemeElement.appendChild(document.createTextNode(extraDarkThemeCSS));
-head.appendChild(extraDarkThemeElement);
+// head.appendChild(extraDarkThemeElement);
 
 
 // Defining event : checkbox unchecked (default) == dark theme
 toggle.addEventListener('input', function(event) {
-    // If toggle not checked, switch to dark theme
+    // If toggle not checked, switch to light theme
     if (!toggle.checked) {
-        removeLink(themes.light);
-        head.appendChild(extraDarkThemeElement);
-        head.appendChild(darkTheme);
-    }  else {
-        // Else switch to light theme
         removeLink(themes.dark);
-        head.removeChild(extraDarkThemeElement)
         head.appendChild(lightTheme);
+        head.removeChild(extraDarkThemeElement);
+    }  else {
+        // Else switch to dark theme
+        removeLink(themes.light);
+        head.appendChild(extraDarkThemeElement)
+        head.appendChild(darkTheme);
     }
 })

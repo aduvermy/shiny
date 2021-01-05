@@ -6,10 +6,10 @@ source("global.R")
 
 # Collects all of the tab UIs
 ui <- fluidPage(
-  theme = shinytheme("darkly"),
+  theme = shinytheme("flatly"),
   checkboxInput(
     inputId = "themeToggle",
-    label = icon("sun")
+    label = icon("moon")
   ),
   tagList(
     tags$head(
@@ -75,7 +75,7 @@ ui <- fluidPage(
                                  conditionalPanel("output.success == true", 
                                                   alert(status = "success", 
                                                         tags$b("Success!"), 
-                                                        "Counts files & Design Upload"))
+                                                        "Count & Design files Uploaded"))
                                   
         
                     ),
@@ -94,14 +94,14 @@ ui <- fluidPage(
                    conditionalPanel("input.id_tabset=='ACP' || input.id_tabset=='Tree' || 
                                     input.id_tabset=='Heatmap'|| input.id_tabset=='Barplot' || input.id_tabset=='Counts matrix'" ,
                                     selectizeInput(inputId  = "Run",
-                                                    label ="Choose your run",
+                                                    label ="Choose run(s)",
                                                     choices = character(0),
                                                     multiple = TRUE,
                                                     size = 6,
                                                     selected = character(0))),
                     conditionalPanel("input.id_tabset=='Time series'", # Other input for run with dev_stage field 
                                       selectizeInput(inputId  = "Run_tps",
-                                                      label = "Choose your run",
+                                                      label = "Choose run(s)",
                                                       choices = character(0),
                                                       multiple = TRUE,
                                                       size = 6,
@@ -113,40 +113,34 @@ ui <- fluidPage(
                                                              "Gene",
                                                              "Sample",
                                                              "Both"),
-                                                 selected = "None"),
-                                    radioButtons(inputId = "scaling",
-                                                 label = "Choose the way to scale",
-                                                 choices = c("None",
-                                                             "Gene",
-                                                             "Sample"),
                                                  selected = "None")
                                     ),
                     conditionalPanel("input.id_tabset=='Heatmap' || input.id_tabset=='Counts matrix'",
                                      
                                      selectizeInput(inputId ='gene_go',
-                                                     label = "Choose gene to visualized from GO",
+                                                     label = "Choose gene(s) to visualize from GO",
                                                      choices = character(0),
                                                      multiple = TRUE,
                                                      size = 6),
                                      radioButtons(inputId = "operator",
-                                                  label = "Operator between gene selected from GO/INTERSECT",
+                                                  label = "Operator between gene(s) selected from GO/INTERSECT",
                                                   choices = c("Union",
                                                               "Intersection"),
                                                   selected = "Union"),
                                    selectizeInput(inputId ='gene_interpro',
-                                                  label = "Choose gene to visualized from INTERPRO",
+                                                  label = "Choose gene(s) to visualize from INTERPRO",
                                                   choices = character(0),
                                                   multiple = TRUE,
                                                   size = 6)),
                     conditionalPanel("input.id_tabset=='Barplot' || input.id_tabset=='Time series'|| input.id_tabset=='Heatmap' || input.id_tabset=='Counts matrix'",
                                      selectizeInput(inputId = 'gene',
-                                                    label = "Choose gene to visualized",
+                                                    label = "Choose gene(s) to visualize",
                                                     choices = character(0),
                                                     multiple = TRUE,
                                                     size = 6)),
                     conditionalPanel("input.id_tabset=='ACP'",
                                       selectizeInput(inputId = 'condition',
-                                                     label = "Choose your condition",
+                                                     label = "Choose condition",
                                                      choices = colnames(DataBase) ,
                                                      multiple = FALSE,
                                                      size = 6,
@@ -177,7 +171,8 @@ ui <- fluidPage(
                                      DT::dataTableOutput("counts_table"),
                                      br(),
                                      br(),
-                                     downloadButton('download_counts', 'Download Data')
+                                     downloadButton('download_counts', 'Download Data'),
+                                     style = "height:610px; overflow-y: scroll;overflow-x: scroll;",
                             ),
                             tabPanel(title = "Heatmap",
                                      shinycssloaders::withSpinner(plotlyOutput("heatmap", width = "100%"))
